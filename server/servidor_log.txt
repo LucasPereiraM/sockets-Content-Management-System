@@ -1,0 +1,2158 @@
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53535)
+[REQUISIÇÃO] De ('127.0.0.1', 53535): CREATE chave3 valor3
+[RESPOSTA] Para ('127.0.0.1', 53535): Conteúdo criado: chave3 -> valor3
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53701)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53701)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53711)
+[REQUISIÇÃO] De ('127.0.0.1', 53711): READ chave 4
+[RESPOSTA] Para ('127.0.0.1', 53711): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53711)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53719)
+[REQUISIÇÃO] De ('127.0.0.1', 53719): CREATE chave4 valor4
+[RESPOSTA] Para ('127.0.0.1', 53719): Conteúdo criado: chave4 -> valor4
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53719)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53724)
+[REQUISIÇÃO] De ('127.0.0.1', 53724): READ chave4
+[RESPOSTA] Para ('127.0.0.1', 53724): valor4
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53724)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53738)
+[REQUISIÇÃO] De ('127.0.0.1', 53738): UPDATE chave4 novovalor4
+[RESPOSTA] Para ('127.0.0.1', 53738): Conteúdo atualizado: chave4 -> novovalor4
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53738)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53742)
+[REQUISIÇÃO] De ('127.0.0.1', 53742): READ chave4
+[RESPOSTA] Para ('127.0.0.1', 53742): novovalor4
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53742)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53746)
+[REQUISIÇÃO] De ('127.0.0.1', 53746): DELETE chave4
+[RESPOSTA] Para ('127.0.0.1', 53746): Conteúdo deletado: chave4
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53746)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 53751)
+[REQUISIÇÃO] De ('127.0.0.1', 53751): READ chave4
+[RESPOSTA] Para ('127.0.0.1', 53751): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 53751)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 57840)
+[REQUISIÇÃO] De ('127.0.0.1', 57840): CREATE chaveteste valorteste
+[RESPOSTA] Para ('127.0.0.1', 57840): Conteúdo criado: chaveteste -> valorteste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 57840)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 57843)
+[REQUISIÇÃO] De ('127.0.0.1', 57843): READ chaveteste
+[RESPOSTA] Para ('127.0.0.1', 57843): valorteste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 57843)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58135)
+[REQUISIÇÃO] De ('127.0.0.1', 58135): READ chave1
+[RESPOSTA] Para ('127.0.0.1', 58135): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58135)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58139)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58139)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58142)
+[REQUISIÇÃO] De ('127.0.0.1', 58142): CREATE chave1 valor1
+[RESPOSTA] Para ('127.0.0.1', 58142): Conteúdo criado: chave1 -> valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58142)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58146)
+[REQUISIÇÃO] De ('127.0.0.1', 58146): READ chave1
+[RESPOSTA] Para ('127.0.0.1', 58146): valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58146)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58432)
+[REQUISIÇÃO] De ('127.0.0.1', 58432): CREATE no1 valor1
+[RESPOSTA] Para ('127.0.0.1', 58432): Conteúdo criado: no1 -> valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58432)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 58462)
+[REQUISIÇÃO] De ('127.0.0.1', 58462): READ no1
+[RESPOSTA] Para ('127.0.0.1', 58462): valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 58462)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50471)
+[REQUISIÇÃO] De ('127.0.0.1', 50471): CREATE novo1 valor1
+[RESPOSTA] Para ('127.0.0.1', 50471): Conteúdo criado: novo1 -> valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50471)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50475)
+[REQUISIÇÃO] De ('127.0.0.1', 50475): READ novo1
+[RESPOSTA] Para ('127.0.0.1', 50475): valor1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50475)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50510)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50510)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50513)
+[REQUISIÇÃO] De ('127.0.0.1', 50513): READ Artigo1
+[RESPOSTA] Para ('127.0.0.1', 50513): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50513)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50518)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50518)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50521)
+[REQUISIÇÃO] De ('127.0.0.1', 50521): READ artigo1
+[RESPOSTA] Para ('127.0.0.1', 50521): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50521)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50536)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50536)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50540)
+[REQUISIÇÃO] De ('127.0.0.1', 50540): READ artigo1
+[RESPOSTA] Para ('127.0.0.1', 50540): Conteúdo não encontrado.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50540)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:3001
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50622)
+[REQUISIÇÃO] De ('127.0.0.1', 50622): OPTIONS /api HTTP/1.1
+Host: 127.0.0.1:3001
+Connection: keep-alive
+Accept: */*
+Access-Control-Request-Method: POST
+Access-Control-Request-Headers: content-type
+Origin: http://localhost:5173
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Dest: empty
+Referer: http://localhost:5173/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6
+
+
+[RESPOSTA] Para ('127.0.0.1', 50622): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50622)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:3001
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50645)
+[REQUISIÇÃO] De ('127.0.0.1', 50645): CREATE VALOR232 testedevalor
+[RESPOSTA] Para ('127.0.0.1', 50645): Conteúdo criado: VALOR232 -> testedevalor
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50645)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50650)
+[REQUISIÇÃO] De ('127.0.0.1', 50650): READ VALOR232
+[RESPOSTA] Para ('127.0.0.1', 50650): testedevalor
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50650)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50666)
+[REQUISIÇÃO] De ('127.0.0.1', 50666): CREATE artigo1 Este é um artigo de teste.
+Ele possui múltiplos parágrafos.
+
+Aqui está o segundo parágrafo.
+E aqui está o terceiro.
+
+[RESPOSTA] Para ('127.0.0.1', 50666): Conteúdo criado: artigo1 -> Este é um artigo de teste.
+Ele possui múltiplos parágrafos.
+
+Aqui está o segundo parágrafo.
+E aqui está o terceiro.
+
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50666)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50670)
+[REQUISIÇÃO] De ('127.0.0.1', 50670): READ artigo1
+[RESPOSTA] Para ('127.0.0.1', 50670): Este é um artigo de teste.
+Ele possui múltiplos parágrafos.
+
+Aqui está o segundo parágrafo.
+E aqui está o terceiro.
+
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50670)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50814)
+[REQUISIÇÃO] De ('127.0.0.1', 50814): Artigo1 Este e o texto de artigo 1.
+[RESPOSTA] Para ('127.0.0.1', 50814): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50814)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50819)
+[REQUISIÇÃO] De ('127.0.0.1', 50819): Artigo1
+[RESPOSTA] Para ('127.0.0.1', 50819): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50819)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50846)
+[REQUISIÇÃO] De ('127.0.0.1', 50846): CREATE valor2231 teste de valor
+[RESPOSTA] Para ('127.0.0.1', 50846): Conteúdo criado: valor2231 -> teste de valor
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50846)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50850)
+[REQUISIÇÃO] De ('127.0.0.1', 50850): READ valor2231
+[RESPOSTA] Para ('127.0.0.1', 50850): teste de valor
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50850)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50877)
+[REQUISIÇÃO] De ('127.0.0.1', 50877): LIST
+[RESPOSTA] Para ('127.0.0.1', 50877): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50877)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50880)
+[REQUISIÇÃO] De ('127.0.0.1', 50880): CREATE Artigo1 Teste de artigo 1
+[RESPOSTA] Para ('127.0.0.1', 50880): Conteúdo criado: Artigo1 -> Teste de artigo 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50880)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50907)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50908)
+[REQUISIÇÃO] De ('127.0.0.1', 50907): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 50908): LIST
+[RESPOSTA] Para ('127.0.0.1', 50907): Comando inválido.
+[RESPOSTA] Para ('127.0.0.1', 50908): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50907)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50908)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50917)
+[REQUISIÇÃO] De ('127.0.0.1', 50917): CREATE Artigo1 Teste de artigo 1
+[RESPOSTA] Para ('127.0.0.1', 50917): A chave 'Artigo1' já existe. Use um valor diferente.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50917)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50919)
+[REQUISIÇÃO] De ('127.0.0.1', 50919): LIST
+[RESPOSTA] Para ('127.0.0.1', 50919): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50919)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50936)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50937)
+[REQUISIÇÃO] De ('127.0.0.1', 50936): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 50937): LIST
+[RESPOSTA] Para ('127.0.0.1', 50936): Comando inválido.
+[RESPOSTA] Para ('127.0.0.1', 50937): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50936)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50937)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50940)
+[REQUISIÇÃO] De ('127.0.0.1', 50940): CREATE Artigo2 Teste de artigo 2
+[RESPOSTA] Para ('127.0.0.1', 50940): Conteúdo criado: Artigo2 -> Teste de artigo 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50940)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50943)
+[REQUISIÇÃO] De ('127.0.0.1', 50943): LIST
+[RESPOSTA] Para ('127.0.0.1', 50943): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50943)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50952)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50953)
+[REQUISIÇÃO] De ('127.0.0.1', 50952): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 50953): LIST
+[RESPOSTA] Para ('127.0.0.1', 50952): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 50953): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50952)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50953)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50956)
+[REQUISIÇÃO] De ('127.0.0.1', 50956): CREATE Artigo1 Teste de artigo 1
+[RESPOSTA] Para ('127.0.0.1', 50956): Conteúdo criado: Artigo1 -> Teste de artigo 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50956)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50958)
+[REQUISIÇÃO] De ('127.0.0.1', 50958): LIST
+[RESPOSTA] Para ('127.0.0.1', 50958): Artigo1: Teste de artigo 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50958)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50964)
+[REQUISIÇÃO] De ('127.0.0.1', 50964): CREATE Artigo2 Teste de artigo 2
+[RESPOSTA] Para ('127.0.0.1', 50964): Conteúdo criado: Artigo2 -> Teste de artigo 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50964)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50966)
+[REQUISIÇÃO] De ('127.0.0.1', 50966): LIST
+[RESPOSTA] Para ('127.0.0.1', 50966): Artigo1: Teste de artigo 1
+Artigo2: Teste de artigo 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50966)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50992)
+[REQUISIÇÃO] De ('127.0.0.1', 50992): LIST
+[RESPOSTA] Para ('127.0.0.1', 50992): Artigo1: Teste de artigo 1
+Artigo2: Teste de artigo 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50992)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50998)
+[REQUISIÇÃO] De ('127.0.0.1', 50998): DELETE Artigo1
+[RESPOSTA] Para ('127.0.0.1', 50998): Conteúdo deletado: Artigo1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50998)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51000)
+[REQUISIÇÃO] De ('127.0.0.1', 51000): LIST
+[RESPOSTA] Para ('127.0.0.1', 51000): Artigo2: Teste de artigo 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51000)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51003)
+[REQUISIÇÃO] De ('127.0.0.1', 51003): CREATE Artigo2 teste2131231
+[RESPOSTA] Para ('127.0.0.1', 51003): Conteúdo criado: Artigo2 -> teste2131231
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51003)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51005)
+[REQUISIÇÃO] De ('127.0.0.1', 51005): LIST
+[RESPOSTA] Para ('127.0.0.1', 51005): Artigo2: teste2131231
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51005)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51008)
+[REQUISIÇÃO] De ('127.0.0.1', 51008): CREATE Postagem de Primeiro de abril Primeiro conteúdo.
+[RESPOSTA] Para ('127.0.0.1', 51008): Conteúdo criado: Postagem -> de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51008)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51010)
+[REQUISIÇÃO] De ('127.0.0.1', 51010): LIST
+[RESPOSTA] Para ('127.0.0.1', 51010): Artigo2: teste2131231
+Postagem: de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51010)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51024)
+[REQUISIÇÃO] De ('127.0.0.1', 51024): LIST
+[RESPOSTA] Para ('127.0.0.1', 51024): Artigo2: teste2131231
+Postagem: de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51024)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51029)
+[REQUISIÇÃO] De ('127.0.0.1', 51029): LIST
+[RESPOSTA] Para ('127.0.0.1', 51029): Artigo2: teste2131231
+Postagem: de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51029)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51031)
+[REQUISIÇÃO] De ('127.0.0.1', 51031): LIST
+[RESPOSTA] Para ('127.0.0.1', 51031): Artigo2: teste2131231
+Postagem: de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51031)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51035)
+[REQUISIÇÃO] De ('127.0.0.1', 51035): DELETE Artigo2
+[RESPOSTA] Para ('127.0.0.1', 51035): Conteúdo deletado: Artigo2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51035)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51037)
+[REQUISIÇÃO] De ('127.0.0.1', 51037): LIST
+[RESPOSTA] Para ('127.0.0.1', 51037): Postagem: de Primeiro de abril Primeiro conteúdo.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51037)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51040)
+[REQUISIÇÃO] De ('127.0.0.1', 51040): CREATE Postagem de Primeiro de Abril Teste de conteudo de primeiro de abril
+[RESPOSTA] Para ('127.0.0.1', 51040): Conteúdo criado: Postagem -> de Primeiro de Abril Teste de conteudo de primeiro de abril
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51040)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51042)
+[REQUISIÇÃO] De ('127.0.0.1', 51042): LIST
+[RESPOSTA] Para ('127.0.0.1', 51042): Postagem: de Primeiro de Abril Teste de conteudo de primeiro de abril
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51042)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51055)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51056)
+[REQUISIÇÃO] De ('127.0.0.1', 51055): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51056): LIST
+[RESPOSTA] Para ('127.0.0.1', 51055): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51056): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51055)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51056)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51059)
+[REQUISIÇÃO] De ('127.0.0.1', 51059): CREATE Postagem de primeiro de abril Teste de postagem de primeiro de abril
+[RESPOSTA] Para ('127.0.0.1', 51059): Conteúdo criado: Postagem -> de primeiro de abril Teste de postagem de primeiro de abril
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51059)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51061)
+[REQUISIÇÃO] De ('127.0.0.1', 51061): LIST
+[RESPOSTA] Para ('127.0.0.1', 51061): Postagem: de primeiro de abril Teste de postagem de primeiro de abril
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51061)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51073)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51074)
+[REQUISIÇÃO] De ('127.0.0.1', 51073): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51074): LIST
+[RESPOSTA] Para ('127.0.0.1', 51073): Postagem: de primeiro de abril Teste de postagem de primeiro de abril
+[RESPOSTA] Para ('127.0.0.1', 51074): Postagem: de primeiro de abril Teste de postagem de primeiro de abril
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51073)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51074)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51076)
+[REQUISIÇÃO] De ('127.0.0.1', 51076): DELETE Postagem
+[RESPOSTA] Para ('127.0.0.1', 51076): Conteúdo deletado: Postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51076)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51078)
+[REQUISIÇÃO] De ('127.0.0.1', 51078): LIST
+[RESPOSTA] Para ('127.0.0.1', 51078): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51078)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51081)
+[REQUISIÇÃO] De ('127.0.0.1', 51081): CREATE Teste de postagem postagem asdasda 
+[RESPOSTA] Para ('127.0.0.1', 51081): Conteúdo criado: Teste -> de postagem postagem asdasda 
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51081)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51083)
+[REQUISIÇÃO] De ('127.0.0.1', 51083): LIST
+[RESPOSTA] Para ('127.0.0.1', 51083): Teste: de postagem postagem asdasda 
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51083)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51087)
+[REQUISIÇÃO] De ('127.0.0.1', 51087): CREATE Titulo um teste asdasd
+[RESPOSTA] Para ('127.0.0.1', 51087): Conteúdo criado: Titulo -> um teste asdasd
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51087)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51089)
+[REQUISIÇÃO] De ('127.0.0.1', 51089): LIST
+[RESPOSTA] Para ('127.0.0.1', 51089): Teste: de postagem postagem asdasda 
+Titulo: um teste asdasd
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51089)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51097)
+[REQUISIÇÃO] De ('127.0.0.1', 51097): CREATE Exemplo de titulo conteudo um teste
+[RESPOSTA] Para ('127.0.0.1', 51097): Conteúdo criado: Exemplo -> de titulo conteudo um teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51097)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51099)
+[REQUISIÇÃO] De ('127.0.0.1', 51099): LIST
+[RESPOSTA] Para ('127.0.0.1', 51099): Teste: de postagem postagem asdasda 
+Titulo: um teste asdasd
+Exemplo: de titulo conteudo um teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51099)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51119)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51120)
+[REQUISIÇÃO] De ('127.0.0.1', 51119): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51120): LIST
+[RESPOSTA] Para ('127.0.0.1', 51119): Teste: de postagem postagem asdasda 
+Titulo: um teste asdasd
+Exemplo: de titulo conteudo um teste
+[RESPOSTA] Para ('127.0.0.1', 51120): Teste: de postagem postagem asdasda 
+Titulo: um teste asdasd
+Exemplo: de titulo conteudo um teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51120)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51119)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51122)
+[REQUISIÇÃO] De ('127.0.0.1', 51122): DELETE Teste
+[RESPOSTA] Para ('127.0.0.1', 51122): Conteúdo deletado: Teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51122)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51124)
+[REQUISIÇÃO] De ('127.0.0.1', 51124): LIST
+[RESPOSTA] Para ('127.0.0.1', 51124): Titulo: um teste asdasd
+Exemplo: de titulo conteudo um teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51124)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51126)
+[REQUISIÇÃO] De ('127.0.0.1', 51126): DELETE Titulo
+[RESPOSTA] Para ('127.0.0.1', 51126): Conteúdo deletado: Titulo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51126)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51128)
+[REQUISIÇÃO] De ('127.0.0.1', 51128): LIST
+[RESPOSTA] Para ('127.0.0.1', 51128): Exemplo: de titulo conteudo um teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51128)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51130)
+[REQUISIÇÃO] De ('127.0.0.1', 51130): DELETE Exemplo
+[RESPOSTA] Para ('127.0.0.1', 51130): Conteúdo deletado: Exemplo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51130)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51132)
+[REQUISIÇÃO] De ('127.0.0.1', 51132): LIST
+[RESPOSTA] Para ('127.0.0.1', 51132): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51132)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51136)
+[REQUISIÇÃO] De ('127.0.0.1', 51136): CREATE teste de postagem postagem 1 teste de postagem
+[RESPOSTA] Para ('127.0.0.1', 51136): Conteúdo criado: teste -> de postagem postagem 1 teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51136)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51138)
+[REQUISIÇÃO] De ('127.0.0.1', 51138): LIST
+[RESPOSTA] Para ('127.0.0.1', 51138): teste: de postagem postagem 1 teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51138)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51144)
+[REQUISIÇÃO] De ('127.0.0.1', 51144): LIST
+[RESPOSTA] Para ('127.0.0.1', 51144): teste: de postagem postagem 1 teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51144)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51147)
+[REQUISIÇÃO] De ('127.0.0.1', 51147): LIST
+[RESPOSTA] Para ('127.0.0.1', 51147): teste: de postagem postagem 1 teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51147)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51150)
+[REQUISIÇÃO] De ('127.0.0.1', 51150): CREATE Artigo dois teste de postagem
+[RESPOSTA] Para ('127.0.0.1', 51150): Conteúdo criado: Artigo -> dois teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51150)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51152)
+[REQUISIÇÃO] De ('127.0.0.1', 51152): LIST
+[RESPOSTA] Para ('127.0.0.1', 51152): teste: de postagem postagem 1 teste de postagem
+Artigo: dois teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51152)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51155)
+[REQUISIÇÃO] De ('127.0.0.1', 51155): DELETE teste
+[RESPOSTA] Para ('127.0.0.1', 51155): Conteúdo deletado: teste
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51155)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51157)
+[REQUISIÇÃO] De ('127.0.0.1', 51157): LIST
+[RESPOSTA] Para ('127.0.0.1', 51157): Artigo: dois teste de postagem
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51157)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51159)
+[REQUISIÇÃO] De ('127.0.0.1', 51159): DELETE Artigo
+[RESPOSTA] Para ('127.0.0.1', 51159): Conteúdo deletado: Artigo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51159)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51161)
+[REQUISIÇÃO] De ('127.0.0.1', 51161): LIST
+[RESPOSTA] Para ('127.0.0.1', 51161): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51161)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51189)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51190)
+[REQUISIÇÃO] De ('127.0.0.1', 51189): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51190): LIST
+[RESPOSTA] Para ('127.0.0.1', 51189): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51190): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51189)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51190)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51196)
+[REQUISIÇÃO] De ('127.0.0.1', 51196): CREATE "Teste de título com espaços" Teste de postagem com espaços
+[RESPOSTA] Para ('127.0.0.1', 51196): Conteúdo criado: "Teste -> de título com espaços" Teste de postagem com espaços
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51196)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51198)
+[REQUISIÇÃO] De ('127.0.0.1', 51198): LIST
+[RESPOSTA] Para ('127.0.0.1', 51198): "Teste: de título com espaços" Teste de postagem com espaços
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51198)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51223)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51224)
+[REQUISIÇÃO] De ('127.0.0.1', 51223): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51224): LIST
+[RESPOSTA] Para ('127.0.0.1', 51223): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51224): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51223)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51224)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51227)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51227)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51229)
+[REQUISIÇÃO] De ('127.0.0.1', 51229): LIST
+[RESPOSTA] Para ('127.0.0.1', 51229): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51229)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51244)
+[REQUISIÇÃO] De ('127.0.0.1', 51244): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51246)
+[RESPOSTA] Para ('127.0.0.1', 51244): Nenhum post ainda.
+[REQUISIÇÃO] De ('127.0.0.1', 51246): LIST
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51244)
+[RESPOSTA] Para ('127.0.0.1', 51246): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51246)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51249)
+[REQUISIÇÃO] De ('127.0.0.1', 51249): CREATE "teste com espaços" eu nao aguento mais
+[RESPOSTA] Para ('127.0.0.1', 51249): Formato do título inválido. Use aspas simples para o título.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51249)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51251)
+[REQUISIÇÃO] De ('127.0.0.1', 51251): LIST
+[RESPOSTA] Para ('127.0.0.1', 51251): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51251)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51259)
+[REQUISIÇÃO] De ('127.0.0.1', 51259): CREATE ""Teste de título"" Beleza seu viado, e agora?
+[RESPOSTA] Para ('127.0.0.1', 51259): Formato do título inválido. Use aspas simples para o título.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51259)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51261)
+[REQUISIÇÃO] De ('127.0.0.1', 51261): LIST
+[RESPOSTA] Para ('127.0.0.1', 51261): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51261)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51266)
+[REQUISIÇÃO] De ('127.0.0.1', 51266): CREATE "'ah era aspas simples que besteira'" aiii que vergonha
+[RESPOSTA] Para ('127.0.0.1', 51266): Formato do título inválido. Use aspas simples para o título.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51266)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51268)
+[REQUISIÇÃO] De ('127.0.0.1', 51268): LIST
+[RESPOSTA] Para ('127.0.0.1', 51268): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51268)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51277)
+[REQUISIÇÃO] De ('127.0.0.1', 51277): CREATE "'mas que porra'" qual a treta
+[RESPOSTA] Para ('127.0.0.1', 51277): Formato do título inválido. Use aspas simples para o título.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51277)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51279)
+[REQUISIÇÃO] De ('127.0.0.1', 51279): LIST
+[RESPOSTA] Para ('127.0.0.1', 51279): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51279)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51283)
+[REQUISIÇÃO] De ('127.0.0.1', 51283): CREATE "ah blz viado" asdasdasda
+[RESPOSTA] Para ('127.0.0.1', 51283): Formato do título inválido. Use aspas simples para o título.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51283)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51285)
+[REQUISIÇÃO] De ('127.0.0.1', 51285): LIST
+[RESPOSTA] Para ('127.0.0.1', 51285): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51285)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51300)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51301)
+[REQUISIÇÃO] De ('127.0.0.1', 51300): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51301): LIST
+[RESPOSTA] Para ('127.0.0.1', 51300): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51301): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51300)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51301)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51304)
+[REQUISIÇÃO] De ('127.0.0.1', 51304): CREATE "she good my neigbor" faaala bonecos e molecas
+[RESPOSTA] Para ('127.0.0.1', 51304): Conteúdo criado: "she -> good: my neigbor" faaala bonecos e molecas
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51304)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51307)
+[REQUISIÇÃO] De ('127.0.0.1', 51307): LIST
+[RESPOSTA] Para ('127.0.0.1', 51307): "she: good - my neigbor" faaala bonecos e molecas
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51307)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51317)
+[REQUISIÇÃO] De ('127.0.0.1', 51317): LIST
+[RESPOSTA] Para ('127.0.0.1', 51317): "she: good - my neigbor" faaala bonecos e molecas
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51317)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51333)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51334)
+[REQUISIÇÃO] De ('127.0.0.1', 51334): LIST
+[RESPOSTA] Para ('127.0.0.1', 51333): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51334): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51333)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51334)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51340)
+[REQUISIÇÃO] De ('127.0.0.1', 51340): CREATE 1232 Título 1 tomara que isso funcione Joao Poggers Oi, meu nome e joão poggers e se eu fodo? descubra.
+[RESPOSTA] Para ('127.0.0.1', 51340): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51340)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51342)
+[REQUISIÇÃO] De ('127.0.0.1', 51342): LIST
+[RESPOSTA] Para ('127.0.0.1', 51342): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51342)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51356)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51357)
+[REQUISIÇÃO] De ('127.0.0.1', 51356): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51357): LIST
+[RESPOSTA] Para ('127.0.0.1', 51356): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51357): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51356)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51357)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51368)
+[REQUISIÇÃO] De ('127.0.0.1', 51368): LIST
+[RESPOSTA] Para ('127.0.0.1', 51368): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51368)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51374)
+[REQUISIÇÃO] De ('127.0.0.1', 51374): CREATE chave1 Teste de titulo Joao Pogers askodaskoda asdkoasokdas
+[RESPOSTA] Para ('127.0.0.1', 51374): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51374)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51376)
+[REQUISIÇÃO] De ('127.0.0.1', 51376): LIST
+[RESPOSTA] Para ('127.0.0.1', 51376): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51376)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51384)
+[REQUISIÇÃO] De ('127.0.0.1', 51384): LIST
+[RESPOSTA] Para ('127.0.0.1', 51384): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51384)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51391)
+[REQUISIÇÃO] De ('127.0.0.1', 51391): LIST
+[RESPOSTA] Para ('127.0.0.1', 51391): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51391)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51396)
+[REQUISIÇÃO] De ('127.0.0.1', 51396): CREATE 'chave1' 'Titulo 1' 'Autor 1' 'Postagem 1 asdasd'
+[RESPOSTA] Para ('127.0.0.1', 51396): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51396)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51398)
+[REQUISIÇÃO] De ('127.0.0.1', 51398): LIST
+[RESPOSTA] Para ('127.0.0.1', 51398): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51398)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51415)
+[REQUISIÇÃO] De ('127.0.0.1', 51415): LIST
+[RESPOSTA] Para ('127.0.0.1', 51415): Nenhum post ainda.
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51417)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51415)
+[REQUISIÇÃO] De ('127.0.0.1', 51417): LIST
+[RESPOSTA] Para ('127.0.0.1', 51417): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51417)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51471)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51472)
+[REQUISIÇÃO] De ('127.0.0.1', 51471): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51472): LIST
+[RESPOSTA] Para ('127.0.0.1', 51471): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51472): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51471)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51472)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51488)
+[REQUISIÇÃO] De ('127.0.0.1', 51488): CREATE chave 1 teste de titulo autor 1 teste de conteudo 
+[RESPOSTA] Para ('127.0.0.1', 51488): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51488)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51490)
+[REQUISIÇÃO] De ('127.0.0.1', 51490): LIST
+[RESPOSTA] Para ('127.0.0.1', 51490): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51490)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51519)
+[REQUISIÇÃO] De ('127.0.0.1', 51519): LIST
+[RESPOSTA] Para ('127.0.0.1', 51519): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51519)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51523)
+[REQUISIÇÃO] De ('127.0.0.1', 51523): CREATE 'chave 1' 'teste 1' 'etadas 12' 'sadasd ad asd'
+[RESPOSTA] Para ('127.0.0.1', 51523): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51523)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51525)
+[REQUISIÇÃO] De ('127.0.0.1', 51525): LIST
+[RESPOSTA] Para ('127.0.0.1', 51525): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51525)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51540)
+[REQUISIÇÃO] De ('127.0.0.1', 51540): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51541)
+[RESPOSTA] Para ('127.0.0.1', 51540): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51540)
+[REQUISIÇÃO] De ('127.0.0.1', 51541): LIST
+[RESPOSTA] Para ('127.0.0.1', 51541): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51541)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51550)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51551)
+[REQUISIÇÃO] De ('127.0.0.1', 51550): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51551): LIST
+[RESPOSTA] Para ('127.0.0.1', 51550): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51551): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51550)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51551)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51556)
+[REQUISIÇÃO] De ('127.0.0.1', 51556): CREATE chave1213 titulo 1 autor 1 daskdaskdao aksdkasodkasod asdok asodk
+[RESPOSTA] Para ('127.0.0.1', 51556): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51556)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51558)
+[REQUISIÇÃO] De ('127.0.0.1', 51558): LIST
+[RESPOSTA] Para ('127.0.0.1', 51558): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51558)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51563)
+[REQUISIÇÃO] De ('127.0.0.1', 51563): LIST
+[RESPOSTA] Para ('127.0.0.1', 51563): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51563)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51565)
+[REQUISIÇÃO] De ('127.0.0.1', 51565): LIST
+[RESPOSTA] Para ('127.0.0.1', 51565): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51565)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51568)
+[REQUISIÇÃO] De ('127.0.0.1', 51568): CREATE chave1 teara aer dasda das das asd dasd asdasdasd 
+[RESPOSTA] Para ('127.0.0.1', 51568): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51568)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51570)
+[REQUISIÇÃO] De ('127.0.0.1', 51570): LIST
+[RESPOSTA] Para ('127.0.0.1', 51570): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51570)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51573)
+[REQUISIÇÃO] De ('127.0.0.1', 51573): LIST
+[RESPOSTA] Para ('127.0.0.1', 51573): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51573)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51576)
+[REQUISIÇÃO] De ('127.0.0.1', 51576): CREATE "titulo1" conteudo askodaksdoaks asd asd
+[RESPOSTA] Para ('127.0.0.1', 51576): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51576)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51578)
+[REQUISIÇÃO] De ('127.0.0.1', 51578): LIST
+[RESPOSTA] Para ('127.0.0.1', 51578): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51578)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51606)
+[REQUISIÇÃO] De ('127.0.0.1', 51606): LIST
+[RESPOSTA] Para ('127.0.0.1', 51606): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51606)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51620)
+[REQUISIÇÃO] De ('127.0.0.1', 51620): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51621)
+[REQUISIÇÃO] De ('127.0.0.1', 51621): LIST
+[RESPOSTA] Para ('127.0.0.1', 51620): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51621): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51621)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51620)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51624)
+[REQUISIÇÃO] De ('127.0.0.1', 51624): CREATE 'chave1' 'etawea sda sdas' 'dasdasd asdad' 'asdadas'
+[RESPOSTA] Para ('127.0.0.1', 51624): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51624)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51626)
+[REQUISIÇÃO] De ('127.0.0.1', 51626): LIST
+[RESPOSTA] Para ('127.0.0.1', 51626): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51626)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51649)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51650)
+[REQUISIÇÃO] De ('127.0.0.1', 51649): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51650): LIST
+[RESPOSTA] Para ('127.0.0.1', 51649): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51650): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51650)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51649)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51653)
+[REQUISIÇÃO] De ('127.0.0.1', 51653): CREATE 'chave3123' 'tiitulo 1' 'autor 21' 'sadkasokda asdokasdokaso a'
+[RESPOSTA] Para ('127.0.0.1', 51653): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51653)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51656)
+[REQUISIÇÃO] De ('127.0.0.1', 51656): LIST
+[RESPOSTA] Para ('127.0.0.1', 51656): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51656)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51667)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51668)
+[REQUISIÇÃO] De ('127.0.0.1', 51668): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51667): LIST
+[RESPOSTA] Para ('127.0.0.1', 51668): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51667): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51668)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51667)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51673)
+[REQUISIÇÃO] De ('127.0.0.1', 51673): CREATE 'chave1' 'eeasease asddasd' 'asdasdasd asda' 'dasdasdasddasd das'
+[RESPOSTA] Para ('127.0.0.1', 51673): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51673)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51675)
+[REQUISIÇÃO] De ('127.0.0.1', 51675): LIST
+[RESPOSTA] Para ('127.0.0.1', 51675): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51675)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51685)
+[REQUISIÇÃO] De ('127.0.0.1', 51685): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51687)
+[RESPOSTA] Para ('127.0.0.1', 51685): Nenhum post ainda.
+[REQUISIÇÃO] De ('127.0.0.1', 51687): LIST
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51685)
+[RESPOSTA] Para ('127.0.0.1', 51687): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51687)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51690)
+[REQUISIÇÃO] De ('127.0.0.1', 51690): CREATE 'chave1' 'skodaskod asdkoa' 'askdoaskod asdkoas' 'asokdaskod asodkaskod'
+[RESPOSTA] Para ('127.0.0.1', 51690): Conteúdo criado: 'chave1' -> skodaskod asdkoa' 'askdoaskod asdkoas' 'asokdaskod asodkaskod: asdkoa' 'askdoaskod asdkoas' 'asokdaskod asodkaskod'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51690)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51692)
+[REQUISIÇÃO] De ('127.0.0.1', 51692): LIST
+[RESPOSTA] Para ('127.0.0.1', 51692): 'chave1': skodaskod asdkoa' 'askdoaskod asdkoas' 'asokdaskod asodkaskod - asdkoa' 'askdoaskod asdkoas' 'asokdaskod asodkaskod'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51692)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51704)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51705)
+[REQUISIÇÃO] De ('127.0.0.1', 51704): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51705): LIST
+[RESPOSTA] Para ('127.0.0.1', 51704): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51705): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51704)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51705)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51708)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51708)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51710)
+[REQUISIÇÃO] De ('127.0.0.1', 51710): LIST
+[RESPOSTA] Para ('127.0.0.1', 51710): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51710)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51722)
+[REQUISIÇÃO] De ('127.0.0.1', 51722): LIST
+[RESPOSTA] Para ('127.0.0.1', 51722): Nenhum post ainda.
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51723)
+[REQUISIÇÃO] De ('127.0.0.1', 51723): LIST
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51722)
+[RESPOSTA] Para ('127.0.0.1', 51723): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51723)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51726)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51726)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51728)
+[REQUISIÇÃO] De ('127.0.0.1', 51728): LIST
+[RESPOSTA] Para ('127.0.0.1', 51728): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51728)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51738)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51739)
+[REQUISIÇÃO] De ('127.0.0.1', 51738): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51739): LIST
+[RESPOSTA] Para ('127.0.0.1', 51739): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51738): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51738)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51739)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51743)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51743)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51745)
+[REQUISIÇÃO] De ('127.0.0.1', 51745): LIST
+[RESPOSTA] Para ('127.0.0.1', 51745): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51745)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51752)
+[REQUISIÇÃO] De ('127.0.0.1', 51752): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51753)
+[REQUISIÇÃO] De ('127.0.0.1', 51753): LIST
+[RESPOSTA] Para ('127.0.0.1', 51752): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51753): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51752)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51753)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51757)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51757)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51759)
+[REQUISIÇÃO] De ('127.0.0.1', 51759): LIST
+[RESPOSTA] Para ('127.0.0.1', 51759): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51759)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51770)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51771)
+[REQUISIÇÃO] De ('127.0.0.1', 51770): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51771): LIST
+[RESPOSTA] Para ('127.0.0.1', 51770): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51771): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51771)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51770)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51778)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51779)
+[REQUISIÇÃO] De ('127.0.0.1', 51778): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51779): LIST
+[RESPOSTA] Para ('127.0.0.1', 51779): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51778): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51779)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51778)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51783)
+[REQUISIÇÃO] De ('127.0.0.1', 51783): CREATE 'chave1' 'titulo 1' 'autor 1' 'saodasokdoas askod'
+[RESPOSTA] Para ('127.0.0.1', 51783): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51783)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51785)
+[REQUISIÇÃO] De ('127.0.0.1', 51785): LIST
+[RESPOSTA] Para ('127.0.0.1', 51785): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51785)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51796)
+[REQUISIÇÃO] De ('127.0.0.1', 51796): LIST
+ 51797)
+[RESPOSTA] Para ('127.0.0.1', 51796): Nenhum post ainda.
+[REQUISIÇÃO] De ('127.0.0.1', 51797): LIST
+[RESPOSTA] Para ('127.0.0.1', 51797): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51796)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51797)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51809)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51810)
+[REQUISIÇÃO] De ('127.0.0.1', 51809): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51810): LIST
+[RESPOSTA] Para ('127.0.0.1', 51809): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51810): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51809)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51810)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51820)
+[REQUISIÇÃO] De ('127.0.0.1', 51820): CREATE 'chave1' 'titulo 1' 'autor 1' 'conteuad suijai dasd'
+[RESPOSTA] Para ('127.0.0.1', 51820): Uso incorreto do comando. Exemplo: CREATE chave título autor conteúdo
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51820)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51822)
+[REQUISIÇÃO] De ('127.0.0.1', 51822): LIST
+[RESPOSTA] Para ('127.0.0.1', 51822): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51822)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51832)
+[REQUISIÇÃO] De ('127.0.0.1', 51832): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51833)
+[REQUISIÇÃO] De ('127.0.0.1', 51833): LIST
+[RESPOSTA] Para ('127.0.0.1', 51832): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51833): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51832)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51833)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51839)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51840)
+[REQUISIÇÃO] De ('127.0.0.1', 51839): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51840): LIST
+[RESPOSTA] Para ('127.0.0.1', 51839): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51840): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51839)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51840)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51847)
+[REQUISIÇÃO] De ('127.0.0.1', 51847): CREATE 'chave1' 'titulo 1' 'autor 1' 'conteu asidjasi das'
+[RESPOSTA] Para ('127.0.0.1', 51847): Conteúdo criado: 'chave1' -> 'titulo: 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51847)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51849)
+[REQUISIÇÃO] De ('127.0.0.1', 51849): LIST
+[RESPOSTA] Para ('127.0.0.1', 51849): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51849)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51871)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51872)
+[REQUISIÇÃO] De ('127.0.0.1', 51871): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51872): LIST
+[RESPOSTA] Para ('127.0.0.1', 51871): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[RESPOSTA] Para ('127.0.0.1', 51872): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51871)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51872)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51908)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51909)
+[REQUISIÇÃO] De ('127.0.0.1', 51908): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51909): LIST
+[RESPOSTA] Para ('127.0.0.1', 51908): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[RESPOSTA] Para ('127.0.0.1', 51909): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51909)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51908)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51911)
+[REQUISIÇÃO] De ('127.0.0.1', 51911): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51911): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51911)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51913)
+[REQUISIÇÃO] De ('127.0.0.1', 51913): LIST
+[RESPOSTA] Para ('127.0.0.1', 51913): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51913)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51923)
+[REQUISIÇÃO] De ('127.0.0.1', 51923): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51924)
+[REQUISIÇÃO] De ('127.0.0.1', 51924): LIST
+[RESPOSTA] Para ('127.0.0.1', 51923): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[RESPOSTA] Para ('127.0.0.1', 51924): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51923)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51924)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51932)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51933)
+[REQUISIÇÃO] De ('127.0.0.1', 51932): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51933): LIST
+[RESPOSTA] Para ('127.0.0.1', 51932): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[RESPOSTA] Para ('127.0.0.1', 51933): 'chave1': 'titulo - 1' 'autor 1' 'conteu asidjasi das'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51932)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51933)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51948)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51949)
+[REQUISIÇÃO] De ('127.0.0.1', 51948): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51949): LIST
+[RESPOSTA] Para ('127.0.0.1', 51948): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51949): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51949)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51948)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51954)
+[REQUISIÇÃO] De ('127.0.0.1', 51954): CREATE 'chave1' 'Título 1' 'autor 1' 'conteudo 1 teste'
+[RESPOSTA] Para ('127.0.0.1', 51954): Conteúdo criado: 'chave1' -> 'Título: 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51954)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51956)
+[REQUISIÇÃO] De ('127.0.0.1', 51956): LIST
+[RESPOSTA] Para ('127.0.0.1', 51956): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51956)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51995)
+[REQUISIÇÃO] De ('127.0.0.1', 51995): LIST
+[RESPOSTA] Para ('127.0.0.1', 51995): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51995)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52000)
+[REQUISIÇÃO] De ('127.0.0.1', 52000): LIST
+[RESPOSTA] Para ('127.0.0.1', 52000): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52000)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52016)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52018)
+[REQUISIÇÃO] De ('127.0.0.1', 52016): LIST
+[RESPOSTA] Para ('127.0.0.1', 52016): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[REQUISIÇÃO] De ('127.0.0.1', 52018): LIST
+[RESPOSTA] Para ('127.0.0.1', 52018): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52016)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52018)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52020)
+[REQUISIÇÃO] De ('127.0.0.1', 52020): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 52020): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52020)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52022)
+[REQUISIÇÃO] De ('127.0.0.1', 52022): LIST
+[RESPOSTA] Para ('127.0.0.1', 52022): 'chave1': 'Título - 1' 'autor 1' 'conteudo 1 teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52022)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52031)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52032)
+[REQUISIÇÃO] De ('127.0.0.1', 52031): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 52032): LIST
+[RESPOSTA] Para ('127.0.0.1', 52031): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 52032): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52031)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52032)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52037)
+[REQUISIÇÃO] De ('127.0.0.1', 52037): CREATE 'chave1' 'teste de titulo' 'autor  1' 'conteudo de teste'
+[RESPOSTA] Para ('127.0.0.1', 52037): Conteúdo criado: 'chave1' -> 'teste: de titulo' 'autor  1' 'conteudo de teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52037)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52039)
+[REQUISIÇÃO] De ('127.0.0.1', 52039): LIST
+[RESPOSTA] Para ('127.0.0.1', 52039): 'chave1': 'teste - de titulo' 'autor  1' 'conteudo de teste'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52039)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51630)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51631)
+[REQUISIÇÃO] De ('127.0.0.1', 51630): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51631): LIST
+[RESPOSTA] Para ('127.0.0.1', 51630): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51631): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51630)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51631)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51636)
+[REQUISIÇÃO] De ('127.0.0.1', 51636): CREATE 'chave1' 'Título de teste' 'Autor de Teste' 'Publicação de teste 1'
+[RESPOSTA] Para ('127.0.0.1', 51636): Conteúdo criado: 'chave1' -> 'Título: de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51636)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51638)
+[REQUISIÇÃO] De ('127.0.0.1', 51638): LIST
+[RESPOSTA] Para ('127.0.0.1', 51638): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51638)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51644)
+[REQUISIÇÃO] De ('127.0.0.1', 51644): CREATE ''chave1'' 'Titulo de teste editado' 'autor editado' 'conteudo editado'
+[RESPOSTA] Para ('127.0.0.1', 51644): Conteúdo criado: ''chave1'' -> 'Titulo: de teste editado' 'autor editado' 'conteudo editado'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51644)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51646)
+[REQUISIÇÃO] De ('127.0.0.1', 51646): LIST
+[RESPOSTA] Para ('127.0.0.1', 51646): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+''chave1'': 'Titulo - de teste editado' 'autor editado' 'conteudo editado'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51646)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51650)
+[REQUISIÇÃO] De ('127.0.0.1', 51650): DELETE '''chave1'''
+[RESPOSTA] Para ('127.0.0.1', 51650): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51650)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51652)
+[REQUISIÇÃO] De ('127.0.0.1', 51652): LIST
+[RESPOSTA] Para ('127.0.0.1', 51652): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+''chave1'': 'Titulo - de teste editado' 'autor editado' 'conteudo editado'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51652)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51654)
+[REQUISIÇÃO] De ('127.0.0.1', 51654): DELETE '''chave1'''
+[RESPOSTA] Para ('127.0.0.1', 51654): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51654)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51656)
+[REQUISIÇÃO] De ('127.0.0.1', 51656): LIST
+[RESPOSTA] Para ('127.0.0.1', 51656): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+''chave1'': 'Titulo - de teste editado' 'autor editado' 'conteudo editado'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51656)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51658)
+[REQUISIÇÃO] De ('127.0.0.1', 51658): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51658): Conteúdo deletado: ''chave1''
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51658)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51660)
+[REQUISIÇÃO] De ('127.0.0.1', 51660): LIST
+[RESPOSTA] Para ('127.0.0.1', 51660): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51660)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51662)
+[REQUISIÇÃO] De ('127.0.0.1', 51662): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51662): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51662)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51664)
+[REQUISIÇÃO] De ('127.0.0.1', 51664): LIST
+[RESPOSTA] Para ('127.0.0.1', 51664): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51664)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51666)
+[REQUISIÇÃO] De ('127.0.0.1', 51666): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51666): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51666)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51668)
+[REQUISIÇÃO] De ('127.0.0.1', 51668): LIST
+[RESPOSTA] Para ('127.0.0.1', 51668): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51668)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51670)
+[REQUISIÇÃO] De ('127.0.0.1', 51670): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51670): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51670)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51672)
+[REQUISIÇÃO] De ('127.0.0.1', 51672): LIST
+[RESPOSTA] Para ('127.0.0.1', 51672): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51672)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51674)
+[REQUISIÇÃO] De ('127.0.0.1', 51674): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51674): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51674)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51676)
+[REQUISIÇÃO] De ('127.0.0.1', 51676): LIST
+[RESPOSTA] Para ('127.0.0.1', 51676): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51676)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51685)
+[REQUISIÇÃO] De ('127.0.0.1', 51685): LIST
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51686)
+[RESPOSTA] Para ('127.0.0.1', 51685): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[REQUISIÇÃO] De ('127.0.0.1', 51686): LIST
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51685)
+[RESPOSTA] Para ('127.0.0.1', 51686): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51686)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51688)
+[REQUISIÇÃO] De ('127.0.0.1', 51688): DELETE ''chave1''
+[RESPOSTA] Para ('127.0.0.1', 51688): Chave não encontrada para exclusão.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51688)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51690)
+[REQUISIÇÃO] De ('127.0.0.1', 51690): LIST
+[RESPOSTA] Para ('127.0.0.1', 51690): 'chave1': 'Título - de teste' 'Autor de Teste' 'Publicação de teste 1'
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51690)
+[SERVIDOR INICIADO] Rodando em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51731)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51732)
+[REQUISIÇÃO] De ('127.0.0.1', 51732): LIST
+[REQUISIÇÃO] De ('127.0.0.1', 51731): LIST
+[RESPOSTA] Para ('127.0.0.1', 51732): Nenhum post ainda.
+[RESPOSTA] Para ('127.0.0.1', 51731): Nenhum post ainda.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51732)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51731)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51757)
+[REQUISIÇÃO] De ('127.0.0.1', 51757): GET / HTTP/1.1
+Host: localhost:65005
+Connection: Upgrade
+Pragma: no-cache
+Cache-Control: no-cache
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Upgrade: websocket
+Origin: http://localhost:5173
+Sec-WebSocket-Version: 13
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,es;q=0.6
+Sec-WebSocket-Key: FEVi8VP1gO3WrCCtirgnsw==
+Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
+
+
+[RESPOSTA] Para ('127.0.0.1', 51757): Comando inválido.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51757)
+[INICIADO] Servidor iniciado em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51764)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51764)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51766)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51766)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51769)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51769)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51771)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51771)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51773)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51773)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51775)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51775)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51777)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51777)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51779)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51779)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51791)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51791)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51793)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51793)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51797)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51797)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51802)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51802)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51804)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51804)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51809)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51809)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51811)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51811)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52307)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52307)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52338)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52338)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52340)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52340)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52364)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52364)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52366)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52366)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52369)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52369)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52371)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52371)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52374)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52374)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52376)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52376)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52379)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52379)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52381)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52381)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52411)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52411)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52415)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52415)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52418)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52418)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52421)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52421)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52423)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52423)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52427)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52427)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52430)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52430)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52432)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52432)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52436)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52436)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52438)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52438)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52440)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52440)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52442)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52442)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52444)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52444)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52446)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52446)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52448)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52448)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52450)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52450)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52452)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52452)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52454)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52454)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52456)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52456)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52458)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52458)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52460)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52460)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52462)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52462)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52464)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52464)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52466)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52466)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52469)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52469)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52471)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52471)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52473)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52473)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52475)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52475)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52489)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52491)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52489)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52491)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52494)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52494)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52496)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52496)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52506)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52506)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52507)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52507)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52509)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52509)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52511)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52511)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52513)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52513)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 52515)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52515)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52517)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52517)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 52519)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 52519)
+[INICIADO] Servidor iniciado em 127.0.0.1:65005
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50336)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50337)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50336)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50337)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50342)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50342)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50344)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50344)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50349)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50349)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50351)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50351)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50361)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50361)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50363)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50363)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50365)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50365)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50367)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50367)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50370)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50370)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50372)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50372)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50375)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50375)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50377)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50377)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50381)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50381)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50383)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50383)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50427)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50428)
+427)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50428)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50431)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50431)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50433)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50433)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50436)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50436)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50438)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50438)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50442)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50442)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50444)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50444)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50447)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50447)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50449)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50449)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50459)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50459)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50460)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50460)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50463)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50463)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50466)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50466)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50496)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50496)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50497)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50497)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50500)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50500)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50502)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50502)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50508)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50508)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50510)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50510)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50808)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50808)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50810)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50810)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50835)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50836)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50835)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50836)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50843)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50843)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50845)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50845)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50847)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50847)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50849)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50849)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50868)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50868)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50870)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50870)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50892)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50893)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50892)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50893)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50896)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50896)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50898)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50898)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50901)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50901)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50903)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50903)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50905)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50905)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50907)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50907)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50909)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50909)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50911)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50911)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50913)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50913)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50915)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50915)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50917)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50917)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50919)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50919)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50922)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50922)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50924)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50924)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50926)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50926)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50928)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50928)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50930)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50930)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50932)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50932)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50936)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50936)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50938)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50938)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50941)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50941)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50943)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50943)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50946)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50946)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50948)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50948)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50951)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50951)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50953)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50953)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50955)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50955)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50957)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50957)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50959)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50959)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50961)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50961)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50992)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50992)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50994)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50994)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51008)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51009)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51008)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51009)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51014)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51015)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51014)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51015)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51019)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51020)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51019)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51020)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51024)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51024)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51025)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51025)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51029)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51029)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51030)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51030)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51034)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51034)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51035)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51035)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51038)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51038)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51040)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51040)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51042)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51042)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51044)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51044)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51076)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51077)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51076)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51077)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51080)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51080)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51083)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51083)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51086)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51086)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51088)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51088)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51093)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51093)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51095)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51095)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51105)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51105)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51107)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51107)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51110)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51110)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51112)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51112)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51114)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51114)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51116)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51116)
+[INICIADO] Servidor iniciado em 127.0.0.1:65005
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51130)
+[ATIVO] Conexões ativas: 2
+nectado: ('127.0.0.1', 51130)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51131)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51131)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51135)
+[CRIAÇÃO] Conteúdo criado: 23dc9c3f-3737-41ae-ae8a-0b79b8322e70 -> Reiniciei o servidor por poggers: AAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAA
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51135)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51137)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51137)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51142)
+[ATUALIZAÇÃO] Conteúdo atualizado: 23dc9c3f-3737-41ae-ae8a-0b79b8322e70 -> Reiniciei o servidor por poggers: EDITEI AAAAAAAAAAAAAA
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51142)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51144)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51144)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51148)
+[EXCLUSÃO] Conteúdo deletado: 23dc9c3f-3737-41ae-ae8a-0b79b8322e70
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51148)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51150)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51150)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51213)
+[CRIAÇÃO] Conteúdo criado: fa7465d2-00c6-4b87-83ec-444b79ccfd24 -> Criar conteudo por askodasd a: asokdkas oas kdasokdoas
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51213)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51215)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51215)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51233)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51234)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51233)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51234)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51237)
+[ATIVO] Conexões ativas: 1
+[ATUALIZAÇÃO] Conteúdo atualizado: fa7465d2-00c6-4b87-83ec-444b79ccfd24 -> Criar conteudo por askodasd a: asokdkas oas EDITADO
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51237)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51239)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51239)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51242)
+[ATIVO] Conexões ativas: 1
+[CRIAÇÃO] Conteúdo criado: d9be0cbb-6e46-4938-a1e8-30dd4ce8845a -> Conteudo 2 por asdaks adkoaskd oas: askdo asod kasd as
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51242)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51245)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51245)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51359)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51359)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51360)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51360)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51368)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51368)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51369)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51369)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51379)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51379)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51380)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51380)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51426)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51426)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51427)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51427)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51645)
+[CRIAÇÃO] Conteúdo criado: 4ee7854b-a372-4f17-a407-f501a7fc5926 -> O movimento dos marsupiais ao longo da costa da espada. por Joao Cabrito: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere sem, vel tincidunt purus. Suspendisse ac eros vel mauris ultrices laoreet nec convallis felis. Fusce elementum accumsan sem, non semper orci venenatis in. Suspendisse faucibus maximus porta. Sed varius dapibus orci in tincidunt. Sed scelerisque aliquam nunc, vitae hendrerit risus. Donec malesuada convallis mi iaculis suscipit. Sed egestas, magna sit amet rutrum commodo, orci leo lacinia dolor, ac auctor diam ex ut nisi.
+
+Suspendisse et urna lacus. In iaculis risus non lectus scelerisque tincidunt. Etiam libero orci, volutpat convallis eros sed, cursus dapibus ligula. Vivamus pretium iaculis arcu non tempus. Nam gravida ut sem ac bibendum. Integer at velit at nunc fringilla elementum at id orci. Etiam quis blandit dui, in viverra ante. Etiam vitae nulla at risus egestas pellentesque id a ligula. Duis sit amet cursus velit
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51645)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51647)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51647)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51682)
+[ATUALIZAÇÃO] Conteúdo atualizado: 4ee7854b-a372-4f17-a407-f501a7fc5926 -> O movimento dos marsupiais ao longo da costa da espada. EDITADO por Joao Cabrito: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere sem, vel tincidunt purus. Suspendisse ac eros vel mauris ultrices laoreet nec convallis felis. Fusce elementum accumsan sem, non semper orci venenatis in. Suspendisse faucibus maximus porta. Sed varius dapibus orci in tincidunt. Sed scelerisque aliquam nunc, vitae hendrerit risus. Donec malesuada convallis mi iaculis suscipit. Sed egestas, magna sit amet rutrum commodo, orci leo lacinia dolor, ac auctor diam ex ut nisi.
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51682)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51684)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51684)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51730)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51730)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51731)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51731)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51740)
+[CRIAÇÃO] Conteúdo criado: 83733c84-308a-4889-97ab-c23075f523fc -> Texto grande por ajasdji : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere sem, vel tincidunt purus. Suspendisse ac eros vel mauris ultrices laoreet nec convallis felis. Fusce elementum accumsan sem, non semper orci venenatis in. Suspendisse faucibus maximus porta. Sed varius dapibus orci in tincidunt. Sed scelerisque aliquam nunc, vitae hendrerit risus. Donec malesuada convallis mi iaculis suscipit. Sed egestas, magna sit amet rutrum commodo, orci leo lacinia dolor, ac auctor diam ex ut nisi.
+
+Suspendisse et urna lacus. In iaculis risus non lectus scelerisque tincidunt. Etiam libero orci, volutpat convallis eros sed, cursus dapibus ligula. Vivamus pretium iaculis arcu non tempus. Nam gravida ut sem ac bibendum. Integer at velit at nunc fringilla elementum at id orci. Etiam quis blandit dui, in viverra ante. Etiam vitae nulla at risus egestas pellentesque id a ligula. Duis sit amet cursus velit.
+
+Aenean commodo justo non pellentesque sceler
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51740)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51742)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51742)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51808)
+[ATIVO] Conexões ativas: 1
+[CRIAÇÃO] Conteúdo criado: 40b3c6f2-3a6a-4740-a747-bb2c29d053fe -> Texto grande 2 por Sheipe of iuu: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut posuere sem, vel tincidunt purus. Suspendisse ac eros vel mauris ultrices laoreet nec convallis felis. Fusce elementum accumsan sem, non semper orci venenatis in. Suspendisse faucibus maximus porta. Sed varius dapibus orci in tincidunt. Sed scelerisque aliquam nunc, vitae hendrerit risus. Donec malesuada convallis mi iaculis suscipit. Sed egestas, magna sit amet rutrum commodo, orci leo lacinia dolor, ac auctor diam ex ut nisi.
+
+Suspendisse et urna lacus. In iaculis risus non lectus scelerisque tincidunt. Etiam libero orci, volutpat convallis eros sed, cursus dapibus ligula. Vivamus pretium iaculis arcu non tempus. Nam gravida ut sem ac bibendum. Integer at velit at nunc fringilla elementum at id orci. Etiam quis blandit dui, in viverra ante. Etiam vitae nulla at risus egestas pellentesque id a ligula. Duis sit amet cursus velit.
+
+Aenean commodo justo non pellentesque
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51808)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51810)
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51810)
