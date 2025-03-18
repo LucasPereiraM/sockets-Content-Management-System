@@ -238,6 +238,8 @@ function App() {
                       onClick={() => handleDelete(post.key)}
                       className="text-red-500 hover:text-red-700 bg-red-500 rounded-md"
                     >
+
+
                       <img src="./x-lg.svg" alt="excluir" className="w-7 p-1" />
                     </button>
                   </div>

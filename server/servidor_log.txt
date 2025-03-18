@@ -2156,3 +2156,11 @@ Aenean commodo justo non pellentesque
 o: ('127.0.0.1', 51810)
 [ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
 [DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51810)
+[INICIADO] Servidor iniciado em 127.0.0.1:65005
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50442)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50443)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50442)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50443)
