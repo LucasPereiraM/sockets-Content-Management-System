@@ -1,0 +1,8 @@
+FROM python:3.10
+WORKDIR /app
+
+COPY ../server/proxy.py ./
+
+RUN pip install flask flask-cors
+ENV FLASK_APP=proxy.py
+CMD ["flask", "run", "--host=0.0.0.0", "--port=3001"]

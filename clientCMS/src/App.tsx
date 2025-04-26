@@ -25,7 +25,7 @@ function App() {
 
   const updatePosts = async () => {
     try {
-      const res = await fetch("http://127.0.0.1:3001/api", {
+      const res = await fetch(`/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ command: "LIST" }),
@@ -67,7 +67,7 @@ function App() {
     const key = crypto.randomUUID();
 
     try {
-      const res = await fetch("http://127.0.0.1:3001/api", {
+      const res = await fetch(`/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -105,7 +105,7 @@ function App() {
 
   const handleDelete = async (key: string) => {
     try {
-      const res = await fetch("http://127.0.0.1:3001/api", {
+      const res = await fetch(`/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ command: `DELETE '${key}'` }),
@@ -123,7 +123,7 @@ function App() {
     if (!keyInput.trim() || !titleInput.trim() || !valueInput.trim() || !authorInput.trim()) return;
 
     try {
-      const res = await fetch("http://127.0.0.1:3001/api", {
+      const res = await fetch(`/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
