@@ -2164,3 +2164,87 @@ o: ('127.0.0.1', 50442)
 [ATIVO] Conexões ativas: 2
 [DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50442)
 [DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50443)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50806)
+[CRIAÇÃO] Conteúdo criado: 8fe1f6a2-c1b3-40a4-a506-722c69dcd8a1 -> Título 1 - Artigo poggers por Autor 1: Conteúdo 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50806)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50808)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50808)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50819)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50821)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50819)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50821)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50831)
+[CRIAÇÃO] Conteúdo criado: f42aa98c-1c6a-4e5c-902c-c8de687711b4 -> Título 2  por autor 2: askod akosdkoasdko askodakos
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50831)
+[ATIVO] Conexões ativas: 1
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50833)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50833)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 51320)
+[CRIAÇÃO] Conteúdo criado: 33c26ff1-d1bc-4cdc-b682-36fdcf481462 -> Lorem Ipsun por Autor do Lorem Ipsun: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porta velit quis ultrices feugiat. Nullam volutpat pretium sollicitudin. Maecenas non enim et tellus dictum auctor. Vestibulum ac elit nec nisl porttitor rutrum. Pellentesque vulputate, nisi non feugiat eleifend, velit orci mattis magna, ut porta dolor risus vitae justo. Fusce sollicitudin dictum ligula, nec interdum mauris laoreet vitae. Donec ex augue, blandit eget enim nec, hendrerit interdum orci. Integer fringilla odio posuere, molestie odio id, pretium ipsum.
+
+Duis lorem lacus, cursus vel mauris eu, dapibus semper tortor. Aenean facilisis tortor eu lacus imperdiet, sed tempor enim pellentesque. Nam consequat feugiat mi, nec condimentum nisi auctor viverra. Nunc sit amet varius arcu. Proin eget erat mattis, sagittis eros ac, volutpat massa. Fusce vestibulum libero efficitur ante dictum, nec vulputate ex interdum. Vivamus lectus eros, imperdiet et felis vehicula
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51320)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 51322)
+[ATIVO] Conexões ativas: 1
+[ERRO] [WinError 10054] Foi forçado o cancelamento de uma conexão existente pelo host remoto
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 51322)
+[INICIADO] Servidor iniciado em 127.0.0.1:65005
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50139)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50139)
+[ATIVO] Conexões ativas: 2
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50140)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50140)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50144)
+[CRIAÇÃO] Conteúdo criado: 46902b5a-67e6-4f74-82d2-c9330789452b -> Publicação 1 por joao: KOSADKASODAOS DKOASKDOASKDO ASKDOASKDOASODASOSK DOASDO ASKDO
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50144)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50146)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50146)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50174)
+[ATUALIZAÇÃO] Conteúdo atualizado: 46902b5a-67e6-4f74-82d2-c9330789452b -> Publicação 1 - EDITADA por joao - editado: KOSADKASODAOS DKOASKDOASKDO ASKDOASKDOASODASOSK DOASDO ASKDO EDITADO
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50174)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50176)
+[ATIVO] Conexões ativas: 1
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50176)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50179)
+[EXCLUSÃO] Conteúdo deletado: 46902b5a-67e6-4f74-82d2-c9330789452b
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50179)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50181)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50181)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50185)
+[CRIAÇÃO] Conteúdo criado: 236ee7a1-ecf4-4dfd-b75d-b5f4a1d9c62f -> OKSAKD por SAOKDKASD : SAKODASKOD
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50185)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50187)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50187)
+[ATIVO] Conexões ativas: 1
+o: ('127.0.0.1', 50196)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50196)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50197)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50201)
+
+[CONEXÃO] Cliente conectado: ('127.0.0.1', 50202)
+[ATIVO] Conexões ativas: 2
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50201)
+[DESCONECTADO] Cliente desconectado: ('127.0.0.1', 50202)
