@@ -53,6 +53,6 @@ kubectl get services
 
 ### 6. Acessar o Frontend
 minikube ip
-use http://<IP-do-Minikube>:30080 para acessar
+use http://ip_do_minikube:30080 para acessar
 
 ou minikube services frontend
