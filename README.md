@@ -1,17 +1,5 @@
-# Como Rodar o Projeto no Minikube
 
-## Pré-requisitos
-
-Certifique-se de ter instalado:
-- [Docker](https://docs.docker.com/get-docker/)
-- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
-- [Kubectl](https://kubernetes.io/docs/tasks/tools/)
-
----
-# Nome do Projeto
-
-Descrição breve do projeto.
-
+### Como rodar com o Docker Compose
 ## Pré-requisitos
 
 - [Docker](https://www.docker.com/) instalado e funcionando
@@ -34,8 +22,14 @@ Abra o navegador
 
 Acesse: http://localhost:3000
 
-
 ## Passos para rodar o minikube (na branch dev)
+## Pré-requisitos
+
+Certifique-se de ter instalado:
+- [Docker](https://docs.docker.com/get-docker/)
+- [Minikube](https://minikube.sigs.k8s.io/docs/start/)
+- [Kubectl](https://kubernetes.io/docs/tasks/tools/)
+
 
 ### 1. Clonar o repositório
 git clone https://github.com/LucasPereiraM/sockets-Content-Management-System/
