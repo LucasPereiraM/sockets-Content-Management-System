@@ -1,5 +1,5 @@
 
-## Como rodar com o Docker Compose
+## Como rodar com o Docker Compose (na branch main)
 ## Pré-requisitos
 
 - [Docker](https://www.docker.com/) instalado e funcionando
