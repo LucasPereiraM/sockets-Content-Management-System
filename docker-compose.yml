@@ -1,0 +1,20 @@
+version: "4.38.0"
+services:
+  frontend:
+    build:
+      dockerfile: Frontend.Dockerfile
+      context: clientCMS/
+    ports:
+      - "80:80"
+  server:
+    build:
+      dockerfile: Server.Dockerfile
+      context: server/
+    ports:
+      - 65005:65005
+  proxy:
+    build:
+      dockerfile: Proxy.Dockerfile
+      context: server/
+    ports:
+      - 3001:3001

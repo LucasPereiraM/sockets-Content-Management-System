@@ -1,20 +1,12 @@
 from flask import Flask, request, jsonify
 from socket import socket, AF_INET, SOCK_STREAM
 from flask_cors import CORS
-import os
 
 app = Flask(__name__)
 CORS(app)
 
-SERVER_HOST = os.getenv("SERVER_HOST","localhost")
-SERVER_PORT = 5000
-
-@app.after_request
-def after_request(response):
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    response.headers.add('Access-Control-Allow-Headers', 'Content-Type')
-    response.headers.add('Access-Control-Allow-Methods', 'POST')
-    return response
+SERVER_HOST = "server"
+SERVER_PORT = 65005
 
 @app.route('/api', methods=['POST'])
 def api():
@@ -35,4 +27,4 @@ def api():
     return jsonify({"response": response})
 
 if __name__ == '__main__':
-    app.run(port=3001)
+    app.run(host='0.0.0.0', port=3001)

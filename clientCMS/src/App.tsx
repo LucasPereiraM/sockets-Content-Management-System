@@ -23,9 +23,11 @@ function App() {
   const [valueInput, setValueInput] = useState<string>("");
   const [authorInput, setAuthorInput] = useState<string>("");
 
+  const apiUrl = import.meta.env.VITE_API_URL;
+
   const updatePosts = async () => {
     try {
-      const res = await fetch(`/api`, {
+      const res = await fetch(`${apiUrl}/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ command: "LIST" }),
@@ -54,7 +56,6 @@ function App() {
     }
   };
 
-
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -67,7 +68,7 @@ function App() {
     const key = crypto.randomUUID();
 
     try {
-      const res = await fetch(`/api`, {
+      const res = await fetch(`${apiUrl}/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -105,7 +106,7 @@ function App() {
 
   const handleDelete = async (key: string) => {
     try {
-      const res = await fetch(`/api`, {
+      const res = await fetch(`${apiUrl}/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ command: `DELETE '${key}'` }),
@@ -123,7 +124,7 @@ function App() {
     if (!keyInput.trim() || !titleInput.trim() || !valueInput.trim() || !authorInput.trim()) return;
 
     try {
-      const res = await fetch(`/api`, {
+      const res = await fetch(`${apiUrl}/api`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

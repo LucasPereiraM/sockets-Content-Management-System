@@ -1,41 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: cms-server
+  name: server
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: cms-server
+      app: server
   template:
     metadata:
       labels:
-        app: cms-server
+        app: server
     spec:
       containers:
         - name: server
           image: lucaspemaciel/server:latest
           ports:
-          - containerPort: 5000
-            name: socket
-          - containerPort: 5001
-            name: http
-          resources:
-            requests:
-              cpu: "100m"
-              memory: "128Mi"
-            limits:
-              cpu: "500m"
-              memory: "512Mi"
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: cms-server
-spec:
-  selector:
-    app: cms-server
-  ports:
-    - protocol: TCP
-      port: 5000
-      targetPort: 5000
+            - containerPort: 65005
