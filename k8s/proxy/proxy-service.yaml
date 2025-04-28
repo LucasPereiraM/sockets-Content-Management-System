@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: proxy-service
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.yml
+    kompose.version: 1.30.0 (9d8dcb518)
+  creationTimestamp: null
+  labels:
+    io.kompose.service: proxy
+  name: proxy
+  namespace: default
+spec:
+  ports:
+    - protocol: TCP
+      port: 3001
+      targetPort: 3001
+  type: NodePort
+  selector:
+    io.kompose.service: proxy
+status:
+  loadBalancer: {}

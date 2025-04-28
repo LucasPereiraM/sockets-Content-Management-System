@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.yml
+    kompose.version: 1.30.0 (9d8dcb518)
+  labels:
+    io.kompose.service: server
+  name: server
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: server
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f docker-compose.yml
+        kompose.version: 1.30.0 (9d8dcb518)
+      labels:
+        io.kompose.network/sockets-content-management-system-default: "true"
+        io.kompose.service: server
+    spec:
+      containers:
+        - name: server
+          image: lucaspemaciel/server:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 65005
+              protocol: TCP
+          resources: {}
+      restartPolicy: Always

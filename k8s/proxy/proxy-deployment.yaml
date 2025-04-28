@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: kompose convert -f docker-compose.yml
+    kompose.version: 1.30.0 (9d8dcb518)
+  labels:
+    io.kompose.service: proxy
+  name: proxy
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: proxy
+  strategy: {}
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: kompose convert -f docker-compose.yml
+        kompose.version: 1.30.0 (9d8dcb518)
+      labels:
+        io.kompose.network/sockets-content-management-system-default: "true"
+        io.kompose.service: proxy
+    spec:
+      containers:
+        - name: proxy
+          image: lucaspemaciel/proxy:latest
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 3001
+              protocol: TCP
+          resources: {}
+          env:
+            - name: SERVER_HOST
+              value: "server-service"
+      restartPolicy: Always

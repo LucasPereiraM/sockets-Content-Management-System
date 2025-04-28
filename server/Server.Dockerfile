@@ -4,6 +4,6 @@ RUN pip install flask flask-cors
 
 COPY  ./ .
 
-EXPOSE 3001
+EXPOSE 65005
 
 CMD ["python", "server.py"]
