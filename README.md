@@ -51,7 +51,7 @@ kubectl apply -f k8s/
 kubectl get pods
 kubectl get services
 
-### 6. 7. Acessar o Frontend
+### 6. Acessar o Frontend
 minikube ip
 use http://<IP-do-Minikube>:30080 para acessar
 
