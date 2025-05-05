@@ -40,9 +40,9 @@ trocar para a branch dev
 minikube start
 
 ### 3. Buildar as imagens Docker
-docker build -t nome-da-imagem-frontend ./clientCMS
-docker build -t nome-da-imagem-proxy ./proxy
-docker build -t nome-da-imagem-server ./server
+docker build -t frontend -f ./clientCMS/Frontend.Dockerfile ./clientCMS
+docker build -t proxy -f ./server/Proxy.Dockerfile ./server
+docker build -t server -f ./server/Server.Dockerfile ./server
 
 ### 4. Aplicar os manifests Kubernetes
 kubectl apply -f k8s/
